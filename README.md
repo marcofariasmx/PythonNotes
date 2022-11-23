@@ -117,15 +117,96 @@ def sum(a, b):
     return a + b
 
 ```
-    
+
+The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.
+The any() function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.
+
+What is the algorithmic paradigm of quick sort? Divide and conquer
+
+
+A set is an unordered collection unique items. A list is an ordered collection of non-unique items.
+
+
 ```python
+class test:
+    def __init__(self):
+        print('I came here without your permission lol')
+        pass
+t1 = test()
+>>> 'I came here without your permission lol'
+```
+
+What is the purpose of the self keyword when defining or calling methods on an instance of an object? self refers to the instance whose method was called.
+Try running the example of the above without passing self argument inside the __init__, you'll understand the reason. You'll get the error like this __init__() takes 0 positional arguments but 1 was given, this means that something is going inside even if haven't specified, which is instance itself.
+
+
+Proper way to define a function
+```python
+def get_max_num(list_of_nums):
+```
+
+
+You use the decorator to alter the functionality of a function without having to modify the functions code.
+
+
+```python
+# Python program to illustrate functions
+# can be passed as arguments to other functions
+def shout(text):
+	return text.upper()
+
+def whisper(text):
+	return text.lower()
+
+def greet(func):
+	# storing the function in a variable
+	greeting = func("""Hi, I am created by a function passed as an argument.""")
+	print (greeting)
+
+greet(shout)
+greet(whisper)
+
 ```
 
 ```python
 ```
 
+
+
 ```python
 ```
+
+
+
+```python
+```
+
+
+
+```python
+```
+
+
+
+```python
+```
+
+
+
+```python
+```
+
+
+
+```python
+```
+
+
+
+```python
+```
+
+
 
 ```python
 ```
