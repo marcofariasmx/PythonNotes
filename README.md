@@ -169,6 +169,23 @@ greet(whisper)
 ```
 
 ```python
+def execute(num):
+    print('execute: ', num)
+
+list = [0,1,2,3,4,5,6,7,8,9]
+
+[execute(num) for num in list]
+
+>>>execute:  0
+>>>execute:  1
+>>>execute:  2
+>>>execute:  3
+>>>execute:  4
+>>>execute:  5
+>>>execute:  6
+>>>execute:  7
+>>>execute:  8
+>>>execute:  9
 ```
 
 
